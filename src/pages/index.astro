@@ -3,40 +3,77 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Rodrigo Rodríguez Buxman | Desarrollador Web Fullstack">
-	<div class="fixed opacity-50 inset-0 -z-10 max-w-2xl mx-auto grid grid-cols-4 gap-4 px-6">
+	<div aria-hidden="true" class="fixed opacity-50 inset-0 -z-10 max-w-2xl mx-auto grid grid-cols-4 gap-4 px-6">
 		<div class="border-x border-neutral-900"></div>
 		<div class="border-x border-neutral-900"></div>
 		<div class="border-x border-neutral-900"></div>
 		<div class="border-x border-neutral-900"></div>
 	</div>
-	<main class="pt-28 pb-14">
-		<h1 class="text-2xl mb-7 leading-none text-neutral-100 font-medium">Rodrigo Rodríguez Buxman</h1>
-		<p class="-mt-[0.3em] mb-7 text-sm lg:text-base leading-snug">Desarrolador Web Fullstack freelancer. Más de dos años de experiencia creando aplicaciones web con tecnologías como React, Next.js, Astro, Supabase y Node.js.</p>
-		<p class="-mt-[0.3em] text-sm lg:text-base leading-snug">Creador de <span class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out">InstaCall</span> y <span class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out">Global Clipboard</span>.</p>
+
+	<!-- <div class="fade-in | absolute right-6 top-3.5 text-sm"><span class="underline">ES</span> / EN</div> -->
+	<main class="py-24">
+		<h1 class="fade-in | text-2xl mb-8 leading-none text-neutral-100 font-medium">Rodrigo Rodríguez Buxman</h1>
+		<p class="fade-in | -mt-[0.3em] mb-6 text-sm lg:text-base leading-snug">Desarrolador Web Fullstack.</p>
+		<p class="fade-in | -mt-[0.3em] text-sm lg:text-base leading-snug">Creador de <span class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out">InstaCall</span> y <a href="/global-clipboard" class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out">Global Clipboard</a>.</p>
 
 
-		<section class="mt-14">
-				<img class="rounded-md" src="https://cdn.dribbble.com/userupload/11356262/file/original-59aed31676f97b3680e54f7d7d156ada.png?resize=752x" alt="">
-				<img class="rounded-md mt-7" src="https://images.mockupcloud.com/images/thumbs/images/2023/12/22/Phone_15_Mockup_8-1170x780.jpg" alt="">
-				<img class="rounded-md mt-7" src="https://framerusercontent.com/images/LOYW96n5vL1mCiXVmtkvGZPAA7g.png" alt="">
+		<section class="mt-16">
+			<h2 class="fade-in | text-lg leading-none text-neutral-100 font-medium mb-8">Trabajos realizados</h2>
+				<img class="fade-in | rounded-md" src="https://cdn.dribbble.com/userupload/11356262/file/original-59aed31676f97b3680e54f7d7d156ada.png?resize=752x" alt="">
+				<img class="fade-in | rounded-md mt-6" src="https://images.mockupcloud.com/images/thumbs/images/2023/12/22/Phone_15_Mockup_8-1170x780.jpg" alt="">
+				<img class="fade-in | rounded-md mt-6" src="https://framerusercontent.com/images/LOYW96n5vL1mCiXVmtkvGZPAA7g.png" alt="">
 		</section>
 
-		<section class="mt-14">
-			<h2 class="text-xl leading-none text-neutral-100 font-medium mb-7">Sobre mí</h2>
+		<section class="mt-16">
+			<h2 class="fade-in | text-lg leading-none text-neutral-100 font-medium mb-8">Sobre mí</h2>
 
-			<p class="mb-7 -mt-[0.3em] text-sm lg:text-base leading-snug">Vivo en Paraná, Argentina. Me apasiona la creación de grandes experiencias digitales, siempre buscando la excelencia en cada detalle e interacción para optimizar las experiencias de los usuarios.</p>
-			<p class="-mt-[0.3em] text-sm lg:text-base leading-snug">Actualmente aprendiendo a desarrollar aplicaciones móviles con React Native.</p>
-
-			<p></p>
-
+			<p class="fade-in | mb-6 -mt-[0.3em] text-sm lg:text-base leading-snug">Vivo en Paraná, Argentina. Tengo más de dos años de experiencia creando aplicaciones web con tecnologías como React, Next.js, Astro, Node.js, Tailwind y TypeScript.</p>
+			<p class="fade-in | mb-6 -mt-[0.3em] text-sm lg:text-base leading-snug">Me apasiona la creación de grandes experiencias digitales, siempre buscando la excelencia en cada detalle e interacción para optimizar las experiencias de los usuarios.</p>
+			<p class="fade-in | -mt-[0.3em] text-sm lg:text-base leading-snug">Actualmente estoy incorporando el desarrollo de aplicaciones móviles con React Native.</p>
 
 		</section>
 
-		<section class="mt-14">
-			<h2 class="text-xl leading-none text-neutral-100 font-medium mb-7">Contacto</h2>
+		<section class="fade-in | mt-16">
+			<h2 class="fade-in | text-lg leading-none text-neutral-100 font-medium mb-8">Contacto</h2>
 
-			<p class="-mt-[0.3em] text-sm lg:text-base leading-snug">Envíame un correo a <a class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out" href="mailto:rdrbux@gmail.com">rdrbux@gmail.com</a>. También puedes seguirme en <a class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out" href="https://www.linkedin.com/in/rdrbux/" target="_blank" rel="noopener noreferrer">LinkedIn</a> o <a class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out" href="https://github.com/RdrBux" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+			<p class="fade-in | -mt-[0.3em] text-sm lg:text-base leading-snug">Envíame un correo a <a class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out" href="mailto:rdrbux@gmail.com">rdrbux@gmail.com</a>. También puedes seguirme en <a class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out" href="https://www.linkedin.com/in/rdrbux/" target="_blank" rel="noopener noreferrer">LinkedIn</a> o <a class="border-b border-neutral-400/50 hover:border-neutral-400 duration-200 ease-in-out" href="https://github.com/RdrBux" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
 
 		</section>
 	</main>
 </Layout>
+
+<style>
+	.fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+	}
+
+	.fade-in.visible {
+			opacity: 1;
+			transform: translateY(0);
+	}
+</style>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+    const elements = document.querySelectorAll('.fade-in');
+
+    // Check if animation has already been run
+    if (!sessionStorage.getItem('animationDone')) {
+        elements.forEach((element, index) => {
+            setTimeout(() => {
+                element.classList.add('visible');
+            }, index * 200);
+        });
+
+        // Set flag in sessionStorage to mark animation as done
+        sessionStorage.setItem('animationDone', 'true');
+    } else {
+        // If animation has already run, apply the 'visible' class immediately
+        elements.forEach((element) => {
+            element.classList.add('visible');
+        });
+    }
+});
+</script>
